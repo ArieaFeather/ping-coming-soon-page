@@ -1,0 +1,2 @@
+-Work on Media quiries for devices.
+-Workout new way of doing halo icons

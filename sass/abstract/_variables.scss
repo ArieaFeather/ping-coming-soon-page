@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&display=swap');
+
+//DEVICE BREAKPOINTS
+/*
+    Desktop: 1440px
+    Tablet: 770px
+    Mobile-lg: 425px
+    Mobile: 375px
+    Mobile-sm: 325px
+*/
+
+$bp-desktop: 1440px;
+$bp-tablet: 770px;
+$bp-mobile-lg: 425px;
+$bp-mobile: 375px;
+$bp-mobile-sm: 325px;
+
+//COLORS
+
+$primary-color-1: #4f7df3; //Blue
+$secondary-color-1: #c2d3ff; //Pale Blue
+$secondary-color-2: #ff5263; //Light Red
+$neutral-color-1: #969696; //Gray
+$neutral-color-2: #151f29; // Very Dark Blue
+
+//FONT DEFINITIONS
+
+$default-font-size: 20px;
+$default-font-family: 'Libre Franklin', sans-serif;
+$font-weight-sm: 300;
+$font-weight-md: 600;
+$font-weight-lg: 700;
