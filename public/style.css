@@ -18,7 +18,6 @@
   padding: 30px 25%;
   text-align: center;
 }
-
 @media (max-width: 1024px) {
   .container-main {
     padding: 30px 15%;
@@ -29,22 +28,20 @@
     padding: 30px 5%;
   }
 }
+
 .section {
   font-family: "Libre Franklin", sans-serif;
 }
-
 .section--header {
   font-weight: 300;
   font-size: 45px;
   margin-bottom: 0;
   color: #969696;
 }
-
 .section--header span {
   font-weight: 700;
   color: black;
 }
-
 @media (max-width: 1024px) {
   .section--header {
     font-size: 35px;
@@ -59,7 +56,6 @@
   font-weight: 300;
   font-size: 20px;
 }
-
 @media (max-width: 500px) {
   .section--subheader {
     font-size: 16px;
@@ -68,7 +64,6 @@
 .section--form {
   display: flex;
 }
-
 @media (max-width: 1024px) {
   .section--form {
     flex-direction: column;
@@ -83,11 +78,9 @@
   margin: 0 10px;
   text-decoration: none;
 }
-
 @media (max-width: 500px) {
   .section--email, .section--btn {
     font-size: 15px;
-    padding: 10px 25px;
   }
 }
 .section--email {
@@ -95,19 +88,9 @@
   border-style: solid;
   border-color: #969696;
 }
-
-.section--email::-moz-placeholder {
-  color: #969696;
-}
-
-.section--email:-ms-input-placeholder {
-  color: #969696;
-}
-
 .section--email::placeholder {
   color: #969696;
 }
-
 .section--btn {
   flex-grow: 1;
   border-style: none;
@@ -115,7 +98,6 @@
   color: white;
   font-weight: 600;
 }
-
 .section--graphic {
   width: 100%;
   margin: 65px 0;
@@ -131,7 +113,6 @@
   border-color: #4f7df3;
   margin: 0 10px;
 }
-
 @media (max-width: 500px) {
   .socialmediabox .fab {
     height: 35px;
@@ -148,7 +129,6 @@
   right: 0;
   transform: translate(-50%, -50%);
 }
-
 @media (max-width: 500px) {
   .socialmediabox .fab::before {
     font-size: 18px;
@@ -157,11 +137,9 @@
 .socialmediabox .fab-t::before {
   content: "\f099";
 }
-
 .socialmediabox .fab-f::before {
   content: "\f39e";
 }
-
 .socialmediabox .fab-i::before {
   content: "\f16d";
 }
@@ -169,15 +147,11 @@
 .attribution {
   font-weight: 700;
 }
-
 .attribution .fem {
   color: #ff5263;
 }
-
 .attribution .coder {
   color: #4f7df3;
 }
-
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3MvYWJzdHJhY3QvX3ZhcmlhYmxlcy5zY3NzIiwiLi4vc2Fzcy9wYWdlcy9fY29taW5nc29vbi5zY3NzIiwic3R5bGUuY29uY2F0LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBUSxpSUFBQTtBQUdSOzs7OztDQUFBO0FBSFEsaUlBQUE7QUFHUjs7Ozs7Q0FBQTtBQ0hBO0VBQ0ksY0FBQTtFQUNBLGNBQUE7RUFDQSxpQkFBQTtFQUNBLGtCQUFBO0FDZUo7QURkSTtFQUxKO0lBTVEsaUJBQUE7RUNpQk47QUFDRjtBRGhCSTtFQVJKO0lBU1EsZ0JBQUE7RUNtQk47QUFDRjs7QURoQkE7RUFDSSx5Q0RZa0I7QUVPdEI7QURsQkk7RUFDSSxnQkRXUztFQ1ZULGVBQUE7RUFDQSxnQkFBQTtFQUNBLGNEQ1U7QUVtQmxCO0FEbkJRO0VBQ0ksZ0JEUUs7RUNQTCxZQUFBO0FDcUJaO0FEbkJRO0VBVEo7SUFVUSxlQUFBO0VDc0JWO0FBQ0Y7QURyQlE7RUFaSjtJQWFRLGVBQUE7RUN3QlY7QUFDRjtBRHRCSTtFQUNJLGdCRExTO0VDTVQsZURSWTtBRWdDcEI7QUR2QlE7RUFISjtJQUlRLGVBQUE7RUMwQlY7QUFDRjtBRHhCSTtFQUNJLGFBQUE7QUMwQlI7QUR6QlE7RUFGSjtJQUdRLHNCQUFBO0lBQ0EsYUFBQTtFQzRCVjtBQUNGO0FEekJJO0VBRUkscUJBQUE7RUFDQSxlRHhCWTtFQ3lCWixtQkFBQTtFQUNBLGFBQUE7RUFDQSxjQUFBO0VBQ0EscUJBQUE7QUMwQlI7QUR6QlE7RUFSSjtJQVNRLGVBQUE7SUFDQSxrQkFBQTtFQzRCVjtBQUNGO0FEMUJJO0VBQ0ksWUFBQTtFQUNBLG1CQUFBO0VBQ0EscUJEMUNVO0FFc0VsQjtBRDNCUTtFQUNJLGNENUNNO0FFeUVsQjtBRDlCUTtFQUNJLGNENUNNO0FFeUVsQjtBRDlCUTtFQUNJLGNENUNNO0FFeUVsQjtBRDFCSTtFQUNJLFlBQUE7RUFDQSxrQkFBQTtFQUNBLHlCRHJEVTtFQ3NEVixZQUFBO0VBQ0EsZ0JENUNTO0FFd0VqQjtBRDFCSTtFQUNJLFdBQUE7RUFDQSxjQUFBO0FDNEJSOztBRHZCSTtFQUNJLGtCQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7RUFDQSxtQkFBQTtFQUNBLGlCQUFBO0VBQ0EsbUJBQUE7RUFDQSxxQkR2RVU7RUN3RVYsY0FBQTtBQzBCUjtBRHpCUTtFQVRKO0lBVVEsWUFBQTtJQUNBLFdBQUE7RUM0QlY7QUFDRjtBRDNCUTtFQUNJLGtCQUFBO0VBQ0EsY0QvRU07RUNnRk4sZUFBQTtFQUNBLFFBQUE7RUFDQSxTQUFBO0VBQ0EsU0FBQTtFQUNBLFFBQUE7RUFDQSxnQ0FBQTtBQzZCWjtBRDVCWTtFQVRKO0lBVVEsZUFBQTtFQytCZDtBQUNGO0FEN0JRO0VBQ0ksZ0JBQUE7QUMrQlo7QUQ3QlE7RUFDSSxnQkFBQTtBQytCWjtBRDdCUTtFQUNJLGdCQUFBO0FDK0JaOztBRDFCQTtFQUNJLGdCRDNGYTtBRXdIakI7QUQ1Qkk7RUFDSSxjRHZHWTtBRXFJcEI7QUQ1Qkk7RUFDSSxjRDVHVTtBRTBJbEIiLCJmaWxlIjoic3R5bGUucHJlZml4LmNzcyJ9 */
 
 /*# sourceMappingURL=style.css.map */
