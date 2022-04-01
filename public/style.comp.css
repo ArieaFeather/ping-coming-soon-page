@@ -1,17 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&display=swap");
 /*
     Desktop: 1440px
-    Tablet: 770px
-    Mobile-lg: 425px
-    Mobile: 375px
+    Tablet: 1024px
+    Mobile: 500px
     Mobile-sm: 325px
 */
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&display=swap");
 /*
     Desktop: 1440px
-    Tablet: 770px
-    Mobile-lg: 425px
-    Mobile: 375px
+    Tablet: 1024px
+    Mobile: 500px
     Mobile-sm: 325px
 */
 .container-main {
@@ -20,12 +18,12 @@
   padding: 30px 25%;
   text-align: center;
 }
-@media (max-width: 770px) {
+@media (max-width: 1024px) {
   .container-main {
     padding: 30px 15%;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .container-main {
     padding: 30px 5%;
   }
@@ -44,12 +42,12 @@
   font-weight: 700;
   color: black;
 }
-@media (max-width: 770px) {
+@media (max-width: 1024px) {
   .section--header {
     font-size: 35px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .section--header {
     font-size: 25px;
   }
@@ -58,7 +56,7 @@
   font-weight: 300;
   font-size: 20px;
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .section--subheader {
     font-size: 16px;
   }
@@ -66,7 +64,7 @@
 .section--form {
   display: flex;
 }
-@media (max-width: 770px) {
+@media (max-width: 1024px) {
   .section--form {
     flex-direction: column;
     row-gap: 15px;
@@ -80,7 +78,7 @@
   margin: 0 10px;
   text-decoration: none;
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .section--email, .section--btn {
     font-size: 15px;
     padding: 10px 25px;
@@ -116,7 +114,7 @@
   border-color: #4f7df3;
   margin: 0 10px;
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .socialmediabox .fab {
     height: 35px;
     width: 35px;
@@ -132,7 +130,7 @@
   right: 0;
   transform: translate(-50%, -50%);
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .socialmediabox .fab::before {
     font-size: 18px;
   }
